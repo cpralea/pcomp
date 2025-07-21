@@ -18,5 +18,3 @@ match machine():
         execute('python3 $PCOMP_DEVROOT/tests/bin/tvm.py -r tests/data/vm -e x86_64JIT')
     case _:
         pass
-
-#execute('python3 $PCOMP_DEVROOT/tests/bin/thw.py')
