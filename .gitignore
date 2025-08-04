@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+__pycache__
+env/python
+tmp
+vm/build
+.gdb_history
