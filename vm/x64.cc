@@ -56,8 +56,6 @@ void x86_64JIT::jit()
     jit_program();
 
     emit_vm_exit_syscall_guard();
-    emit_mov_reg_reg(RDI, RBP);
-    emit_mov_reg_reg(RBP, RDI);
 }
 
 
